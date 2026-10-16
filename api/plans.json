@@ -1,0 +1,306 @@
+{
+ "source": "LimitWatch",
+ "site": "https://codingplanlimits.com",
+ "lastChecked": "2026-10-15",
+ "license": "CC BY 4.0, link to codingplanlimits.com",
+ "note": "Values are what each vendor publishes. Strings starting with 'unknown' or saying 'not published' mean the vendor does not publish the figure.",
+ "plans": [
+  {
+   "id": "claude-pro",
+   "name": "Claude Pro",
+   "vendor": "Anthropic",
+   "tool": "Claude Code",
+   "url": "https://codingplanlimits.com/plans/claude-pro/",
+   "price": "$20/mo monthly; $17/mo billed annually ($200 up front)",
+   "minPriceUsdMonthly": 20,
+   "fiveHourLimit": "Rolling 5-hour session + weekly limit; at least 5x Free per 5-hour session",
+   "weeklyLimit": "Weekly limit exists; size not published",
+   "models": [
+    "Opus, Sonnet, Haiku; Fable via usage credits only"
+   ],
+   "sharedWith": "Shared pool across web, desktop, mobile and Claude Code",
+   "overage": "Usage credits at standard API rates",
+   "lastChanged": "2026-10-15",
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/claude-pro.svg",
+   "sources": [
+    "https://claude.com/pricing"
+   ]
+  },
+  {
+   "id": "claude-max-5x",
+   "name": "Claude Max 5x",
+   "vendor": "Anthropic",
+   "tool": "Claude Code",
+   "url": "https://codingplanlimits.com/plans/claude-max-5x/",
+   "price": "$100/mo (monthly billing only)",
+   "minPriceUsdMonthly": 100,
+   "fiveHourLimit": "5x Pro usage per 5-hour session",
+   "weeklyLimit": "Weekly limit across all models (resets at a fixed time assigned to your account); size not published",
+   "models": [
+    "Opus, Sonnet, Haiku, Fable (50% of weekly limits)"
+   ],
+   "sharedWith": "Shared pool across web, desktop, mobile and Claude Code",
+   "overage": "Usage credits at API rates; includes $100/mo API credits (not usable in Claude Code per getaicodingagent.com)",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/claude-max-5x.svg",
+   "sources": [
+    "https://claude.com/pricing",
+    "https://support.claude.com/en/articles/11049741-what-is-the-max-plan"
+   ]
+  },
+  {
+   "id": "claude-max-20x",
+   "name": "Claude Max 20x",
+   "vendor": "Anthropic",
+   "tool": "Claude Code",
+   "url": "https://codingplanlimits.com/plans/claude-max-20x/",
+   "price": "$200/mo (monthly billing only)",
+   "minPriceUsdMonthly": 200,
+   "fiveHourLimit": "20x Pro usage per 5-hour session",
+   "weeklyLimit": "Weekly limit across all models (resets at a fixed time assigned to your account); size not published",
+   "models": [
+    "Opus, Sonnet, Haiku, Fable (50% of weekly limits)"
+   ],
+   "sharedWith": "Shared pool across web, desktop, mobile and Claude Code",
+   "overage": "Usage credits at API rates; includes $200/mo API credits",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/claude-max-20x.svg",
+   "sources": [
+    "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+    "https://claude.com/pricing"
+   ]
+  },
+  {
+   "id": "claude-team",
+   "name": "Claude Team (Standard / Premium)",
+   "vendor": "Anthropic",
+   "tool": "Claude Code",
+   "url": "https://codingplanlimits.com/plans/claude-team/",
+   "price": "Standard $25/mo, Premium $125/mo per seat (per wokey.ai; not shown on claude.com/pricing when fetched)",
+   "minPriceUsdMonthly": 25,
+   "fiveHourLimit": "Standard seats > Pro; Premium = 5x Standard per session",
+   "weeklyLimit": "unknown",
+   "models": [
+    "Opus, Sonnet, Haiku; Fable at 50% of weekly limits on premium seats"
+   ],
+   "sharedWith": "Teams of 2 to 150",
+   "overage": "Extra usage available; up to $500/mo API credits",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/claude-team.svg",
+   "sources": [
+    "https://wokey.ai/coding-plan-comparison",
+    "https://claude.com/pricing"
+   ]
+  },
+  {
+   "id": "chatgpt-plus",
+   "name": "ChatGPT Plus (Codex)",
+   "vendor": "OpenAI",
+   "tool": "Codex",
+   "url": "https://codingplanlimits.com/plans/chatgpt-plus/",
+   "price": "$20/mo",
+   "minPriceUsdMonthly": 20,
+   "fiveHourLimit": "5-hour window; est. 15-160 local msgs/5h on GPT-6.1 Sol, 5-45 on GPT-6 Astra, 350-3,000 on GPT-6 Luna",
+   "weeklyLimit": "Weekly limits may also apply; size not published",
+   "models": [
+    "GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna"
+   ],
+   "sharedWith": "Shared with ChatGPT Work",
+   "overage": "Buy ChatGPT credits, or use an API key at API rates",
+   "lastChanged": "2026-10-14",
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/chatgpt-plus.svg",
+   "sources": [
+    "https://developers.openai.com/codex/pricing"
+   ]
+  },
+  {
+   "id": "chatgpt-pro",
+   "name": "ChatGPT Pro ($100 / $200 / $500)",
+   "vendor": "OpenAI",
+   "tool": "Codex",
+   "url": "https://codingplanlimits.com/plans/chatgpt-pro/",
+   "price": "$100, $200 or $500 per month",
+   "minPriceUsdMonthly": 100,
+   "fiveHourLimit": "Currently no 5-hour limit",
+   "weeklyLimit": "Included allowance with reset times; size not published. Pro 200: grandfathered subscribers keep the previous allowance through Oct 29, 2026, then move to the lower allowance (price stays $200)",
+   "models": [
+    "Everything in Plus; Ultrafast only on Pro $500"
+   ],
+   "sharedWith": "Shared with ChatGPT Work",
+   "overage": "Buy credits; Fast uses included usage at 2.5x, Ultrafast at 8x",
+   "lastChanged": "2026-09-29",
+   "upcomingChanges": [
+    "2026-10-30",
+    "2026-10-30"
+   ],
+   "badge": "https://codingplanlimits.com/badge/chatgpt-pro.svg",
+   "sources": [
+    "https://developers.openai.com/codex/pricing",
+    "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+   ]
+  },
+  {
+   "id": "chatgpt-go",
+   "name": "ChatGPT Go (Codex lite)",
+   "vendor": "OpenAI",
+   "tool": "Codex",
+   "url": "https://codingplanlimits.com/plans/chatgpt-go/",
+   "price": "$8/mo",
+   "minPriceUsdMonthly": 8,
+   "fiveHourLimit": "Limited Codex access",
+   "weeklyLimit": "unknown",
+   "models": [
+    "GPT-6 Luna at Standard speed in desktop app (subject to rollout)"
+   ],
+   "sharedWith": "Shared with ChatGPT Work",
+   "overage": "unknown",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/chatgpt-go.svg",
+   "sources": [
+    "https://developers.openai.com/codex/pricing",
+    "https://chatgpt.com/pricing"
+   ]
+  },
+  {
+   "id": "cursor-pro",
+   "name": "Cursor Pro (legacy)",
+   "vendor": "Cursor",
+   "tool": "Cursor",
+   "url": "https://codingplanlimits.com/plans/cursor-pro/",
+   "price": "$20/mo (legacy plan: existing subscribers keep it; not sold to new customers)",
+   "minPriceUsdMonthly": 20,
+   "fiveHourLimit": "Monthly pools (Cursor Models + Other Models); no rollover",
+   "weeklyLimit": "No weekly window; pool size not published",
+   "models": [
+    "Cursor Models pool (Grok, Composer) + third-party at API price"
+   ],
+   "sharedWith": "Cursor only. Switching to The X Subscription is optional and permanent",
+   "overage": "On-demand usage at API rates",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/cursor-pro.svg",
+   "sources": [
+    "https://cursor.com/help/account-and-billing/pricing",
+    "https://getaicodingagent.com/guides/ai-coding-agent-usage-limits"
+   ]
+  },
+  {
+   "id": "cursor-pro-plus",
+   "name": "Cursor Pro+ (legacy)",
+   "vendor": "Cursor",
+   "tool": "Cursor",
+   "url": "https://codingplanlimits.com/plans/cursor-pro-plus/",
+   "price": "$60/mo (legacy plan: existing subscribers keep it; not sold to new customers)",
+   "minPriceUsdMonthly": 60,
+   "fiveHourLimit": "Monthly pools; no rollover",
+   "weeklyLimit": "unknown",
+   "models": [
+    "Cursor Models + Other Models pools"
+   ],
+   "sharedWith": "Cursor only. Switching to The X Subscription is optional and permanent",
+   "overage": "On-demand usage at API rates",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/cursor-pro-plus.svg",
+   "sources": [
+    "https://cursor.com/help/account-and-billing/pricing",
+    "https://getaicodingagent.com/guides/ai-coding-agent-usage-limits"
+   ]
+  },
+  {
+   "id": "cursor-ultra-legacy",
+   "name": "Cursor Ultra (legacy)",
+   "vendor": "Cursor",
+   "tool": "Cursor",
+   "url": "https://codingplanlimits.com/plans/cursor-ultra-legacy/",
+   "price": "$200/mo (legacy plan: existing subscribers keep it; not sold to new customers)",
+   "minPriceUsdMonthly": 200,
+   "fiveHourLimit": "Monthly pools; no rollover",
+   "weeklyLimit": "unknown",
+   "models": [
+    "Cursor Models + Other Models pools"
+   ],
+   "sharedWith": "Cursor only. Switching to The X Subscription is optional and permanent",
+   "overage": "On-demand usage at API rates",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/cursor-ultra-legacy.svg",
+   "sources": [
+    "https://cursor.com/help/account-and-billing/pricing",
+    "https://getaicodingagent.com/guides/ai-coding-agent-usage-limits"
+   ]
+  },
+  {
+   "id": "x-subscription",
+   "name": "X Subscription (Grok + Cursor bundle)",
+   "vendor": "X / SpaceX",
+   "tool": "Cursor, Grok Build, Grok Bot",
+   "url": "https://codingplanlimits.com/plans/x-subscription/",
+   "price": "Plus $8, Premium $30, Super $100, Ultra $200 per month; Teams $30+/user",
+   "minPriceUsdMonthly": 8,
+   "fiveHourLimit": "Weekly-refreshing pool shared across Cursor and Grok",
+   "weeklyLimit": "Premium 4x, Super 15x, Ultra 50x the Plus pool; absolute size not published",
+   "models": [
+    "Plus: Grok only. Premium+: Grok included; third-party models in Cursor billed at API list price"
+   ],
+   "sharedWith": "Cursor + Grok Chat/Imagine/Voice/Bot",
+   "overage": "Top-offs, or wait for weekly refresh",
+   "lastChanged": "2026-10-15",
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/x-subscription.svg",
+   "sources": [
+    "https://cursor.com/pricing"
+   ]
+  },
+  {
+   "id": "glm-coding-plan",
+   "name": "GLM Coding Plan (Lite / Pro / Max)",
+   "vendor": "Z.ai",
+   "tool": "Claude Code, Codex, OpenCode, Cline, ZCode",
+   "url": "https://codingplanlimits.com/plans/glm-coding-plan/",
+   "price": "Starts at $18/mo; Pro and Max prices not on docs page",
+   "minPriceUsdMonthly": 18,
+   "fiveHourLimit": "5-hour credits: Lite 2,000 / Pro 12,000 / Max 28,000",
+   "weeklyLimit": "Weekly credits: Lite 10,000 / Pro 60,000 / Max 140,000; off-peak usage at 50%",
+   "models": [
+    "GLM-5.3, GLM-5.3-Flash"
+   ],
+   "sharedWith": "Works in 20+ agent tools",
+   "overage": "unknown",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/glm-coding-plan.svg",
+   "sources": [
+    "https://docs.z.ai/devpack/overview"
+   ]
+  },
+  {
+   "id": "kimi-code",
+   "name": "Kimi Code",
+   "vendor": "Moonshot AI",
+   "tool": "Kimi Code (desktop, CLI, IDE)",
+   "url": "https://codingplanlimits.com/plans/kimi-code/",
+   "price": "unknown (pricing page did not render when fetched)",
+   "minPriceUsdMonthly": null,
+   "fiveHourLimit": "unknown",
+   "weeklyLimit": "unknown",
+   "models": [
+    "Kimi K3"
+   ],
+   "sharedWith": "One subscription across desktop, CLI and IDE plugins",
+   "overage": "unknown",
+   "lastChanged": null,
+   "upcomingChanges": [],
+   "badge": "https://codingplanlimits.com/badge/kimi-code.svg",
+   "sources": [
+    "https://www.kimi.com/code"
+   ]
+  }
+ ]
+}

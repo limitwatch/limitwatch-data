@@ -1,0 +1,117 @@
+{
+ "source": "LimitWatch",
+ "site": "https://codingplanlimits.com",
+ "lastChecked": "2026-10-15",
+ "license": "CC BY 4.0, link to codingplanlimits.com",
+ "note": "Values are what each vendor publishes. Strings starting with 'unknown' or saying 'not published' mean the vendor does not publish the figure.",
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "planId": "chatgpt-pro",
+   "title": "ChatGPT Pro $200: grandfathered Codex allowance ends",
+   "field": "Included ChatGPT Work + Codex allowance (Pro $200, grandfathered)",
+   "before": "20x Plus allowance (kept through Oct 29, 2026 for subscribers active Sep 22 to Sep 29)",
+   "after": "10x Plus allowance from Oct 30, 2026; price stays $200/mo",
+   "direction": "down",
+   "upcoming": true,
+   "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+   "note": "OpenAI's help article says the previous allowance applies 'through October 29, 2026'; OpenAI's email (quoted on Hacker News) says the decrease starts 'October 30, 2026'. Both describe the same switch."
+  },
+  {
+   "date": "2026-10-30",
+   "planId": "chatgpt-pro",
+   "title": "ChatGPT Pro $200: GPT-6 Pro chat messages halved",
+   "field": "GPT-6 Pro messages in Chat (Pro $200)",
+   "before": "200 per week",
+   "after": "100 per week",
+   "direction": "down",
+   "upcoming": true,
+   "source": "https://news.ycombinator.com/item?id=49901067",
+   "note": "From OpenAI's subscriber email as quoted on Hacker News; not stated on the help article we opened."
+  },
+  {
+   "date": "2026-10-15",
+   "planId": "x-subscription",
+   "title": "Cursor pricing page now shows the X Subscription bundle",
+   "field": "Individual plans on cursor.com/pricing",
+   "before": "Pro $20 / Pro+ $60 / Ultra $200 (per getaicodingagent.com, checked Oct 13)",
+   "after": "Plus $8 / Premium $30 / Super $100 / Ultra $200, one weekly pool shared by Cursor and Grok",
+   "direction": "changed",
+   "upcoming": false,
+   "source": "https://cursor.com/pricing",
+   "note": "Date is when we observed it; the vendor didn't publish an effective date on the page."
+  },
+  {
+   "date": "2026-10-15",
+   "planId": "claude-pro",
+   "title": "Claude artifact usage promotion ended",
+   "field": "5-hour session usage after creating/editing an artifact (Pro, Max, Team)",
+   "before": "Oct 1 to Oct 15: next 10 messages counted at 50% toward the 5-hour limit (weekly limit unchanged)",
+   "after": "Standard rate",
+   "direction": "down",
+   "upcoming": false,
+   "source": "https://support.claude.com/en/articles/17274727-artifact-usage-promotion",
+   "note": null
+  },
+  {
+   "date": "2026-10-14",
+   "planId": "chatgpt-plus",
+   "title": "GPT-5.5 retired from Codex with ChatGPT sign-in",
+   "field": "Models in Codex (ChatGPT sign-in)",
+   "before": "GPT-5.5 available",
+   "after": "Retired at noon PDT; API-key sessions unaffected",
+   "direction": "down",
+   "upcoming": false,
+   "source": "https://developers.openai.com/codex/pricing",
+   "note": null
+  },
+  {
+   "date": "2026-09-29",
+   "planId": "chatgpt-pro",
+   "title": "OpenAI halved the ChatGPT Pro $200 allowance and added a $500 tier",
+   "field": "Pro $200 allowance vs Plus",
+   "before": "20x Plus",
+   "after": "10x Plus; new Pro $500 tier",
+   "direction": "down",
+   "upcoming": false,
+   "source": "https://wokey.ai/coding-plan-comparison",
+   "note": null
+  },
+  {
+   "date": "2026-09-22",
+   "planId": "claude-pro",
+   "title": "Anthropic raised 5-hour limits with Opus 5.5 launch",
+   "field": "5-hour limits (Pro, Max, Team)",
+   "before": "Previous 5-hour limits",
+   "after": "Raised; SemiAnalysis measured Opus 5.5 limits ~20% higher on Max, ~50% higher on Pro",
+   "direction": "up",
+   "upcoming": false,
+   "source": "https://wokey.ai/coding-plan-comparison",
+   "note": null
+  },
+  {
+   "date": "2026-09-13",
+   "planId": "claude-pro",
+   "title": "Claude Code summer promotion ended",
+   "field": "Weekly limits",
+   "before": "+50% weekly limits (promo)",
+   "after": "Standard weekly limits",
+   "direction": "down",
+   "upcoming": false,
+   "source": "https://wokey.ai/coding-plan-comparison",
+   "note": null
+  },
+  {
+   "date": "2026-09-07",
+   "planId": "chatgpt-plus",
+   "title": "OpenAI global usage reset",
+   "field": "Usage windows (Plus, Pro, Business)",
+   "before": "Partially used",
+   "after": "Refreshed for everyone (one-time)",
+   "direction": "up",
+   "upcoming": false,
+   "source": "https://getaicodingagent.com/guides/ai-coding-agent-usage-limits",
+   "note": null
+  }
+ ]
+}
